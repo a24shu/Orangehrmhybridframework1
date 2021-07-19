@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.Select;
 
 public class Helper {
 
+	//handle bild sdjgjn
 	public static void selectdropdownvalue(WebElement ele,String visiabletext)
 	{
 		new Select(ele).selectByVisibleText(visiabletext);;
